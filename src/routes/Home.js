@@ -23,6 +23,7 @@ export default function Home() {
           {movies.map((movie) => 
             <Movie 
               key={movie.id}
+              id={movie.id}
               mediumCoverImage={movie.medium_cover_image}
               titleLong={movie.title_long}
               summary={movie.summary}
